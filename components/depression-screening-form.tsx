@@ -393,7 +393,7 @@ export function DepressionScreeningForm({ onSubmit, isLoading = false }: Depress
               <div className="space-y-4">
                 {[
                   { key: "littleInterest", label: "Little interest or pleasure in doing things" },
-                  { key: "feelingDown", label: "Feeling down, depressed, or hopeless" },
+                  { key: "feelingDown", label: "Feeling down or hopeless" },
                   { key: "troubleSleeping", label: "Trouble falling or staying asleep, or sleeping too much" },
                   { key: "feelingTired", label: "Feeling tired or having little energy" },
                   { key: "poorAppetite", label: "Poor appetite or overeating" },
