@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { convertDepressionFormToAPI } from "@/lib/type-converters"
 
-const FASTAPI_URL = process.env.FASTAPI_URL || "https://web-production-25eef.up.railway.app"
+const FASTAPI_URL = process.env.FASTAPI_URL 
 
 export async function POST(request: NextRequest) {
   try {
