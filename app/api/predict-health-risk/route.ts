@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { convertHealthRiskFormToAPI } from "@/lib/type-converters"
 
-const FASTAPI_URL = process.env.FASTAPI_URL || "http://localhost:8000"
+const FASTAPI_URL = process.env.FASTAPI_URL || "https://web-production-25eef.up.railway.app"
 
 export async function POST(request: NextRequest) {
   try {
